@@ -28,25 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2437fb3e-3696-42fe-8166-24f861dc99ca" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/ft_isalnum.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_isalpha.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_isascii.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_isdigit.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_isprint.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_memchr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_memcmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_memmove.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_strchr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_strlen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_strrchr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_tolower.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_toupper.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_atoi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_bzero.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_bzero.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_memccpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_memccpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_memcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_memcpy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_memset.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_memset.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +41,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="1mmrSfog2enQatZiL2p5B696Ol2" />
   <component name="ProjectViewState">
@@ -95,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610109608481</updated>
       <workItem from="1610109609821" duration="5555000" />
-      <workItem from="1610122430474" duration="5455000" />
+      <workItem from="1610122430474" duration="5943000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1610112130654</created>
