@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2437fb3e-3696-42fe-8166-24f861dc99ca" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/ft_isalnum.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_isalpha.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_isascii.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_isdigit.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_isprint.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_memchr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_memcmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_memmove.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strchr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strlen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strrchr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_tolower.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_toupper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_atoi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_bzero.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_bzero.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memccpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_memccpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_memcpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memset.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_memset.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mmrSfog2enQatZiL2p5B696Ol2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ressources" />
+      <recent name="$PROJECT_DIR$/includes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2437fb3e-3696-42fe-8166-24f861dc99ca" name="Default Changelist" comment="" />
+      <created>1610109608481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610109608481</updated>
+      <workItem from="1610109609821" duration="5555000" />
+      <workItem from="1610122430474" duration="5455000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1610112130654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610112130654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="save">
+      <created>1610127795292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610127795292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <MESSAGE value="save" />
+    <option name="LAST_COMMIT_MESSAGE" value="save" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="524" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610127194495">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="395" y="524" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1610127194495" />
+    <state x="516" y="427" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610111583076">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="516" y="427" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1610111583076" />
+    <state x="103" y="123" width="1342" height="1217" key="DiffContextDialog" timestamp="1610127998064">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="103" y="123" width="1342" height="1217" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1610127998064" />
+  </component>
+</project>
