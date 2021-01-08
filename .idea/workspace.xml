@@ -28,8 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2437fb3e-3696-42fe-8166-24f861dc99ca" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610109608481</updated>
       <workItem from="1610109609821" duration="5555000" />
-      <workItem from="1610122430474" duration="5943000" />
+      <workItem from="1610122430474" duration="6330000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1610112130654</created>
