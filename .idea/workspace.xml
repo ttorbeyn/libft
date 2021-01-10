@@ -28,7 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2437fb3e-3696-42fe-8166-24f861dc99ca" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strlcat.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strlcpy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strncmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strnstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,9 +70,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -81,6 +86,8 @@
       <updated>1610109608481</updated>
       <workItem from="1610109609821" duration="5555000" />
       <workItem from="1610122430474" duration="6330000" />
+      <workItem from="1610220744197" duration="455000" />
+      <workItem from="1610226516620" duration="5573000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1610112130654</created>
@@ -132,5 +139,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="103" y="123" width="1342" height="1217" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1610127998064" />
+    <state x="1660" y="23" width="900" height="1057" key="SettingsEditor" timestamp="1610228713840">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="1660" y="23" width="900" height="1057" key="SettingsEditor/0.23.2560.1057@0.23.2560.1057" timestamp="1610228713840" />
   </component>
 </project>
