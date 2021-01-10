@@ -27,11 +27,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2437fb3e-3696-42fe-8166-24f861dc99ca" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/ft_strlcat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_strlcpy.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_strncmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_strnstr.c" afterDir="false" />
+    <list default="true" id="82d17df0-da1a-477f-b9b7-79f9fd21973a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ft_calloc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_strdup.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libft_perso.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,29 +45,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="showPreview" value="true" />
-  </component>
-  <component name="ProjectId" id="1mmrSfog2enQatZiL2p5B696Ol2" />
+  <component name="ProjectId" id="1mr4MmV0LnD1W68M6hqD28wIK0l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/ressources" />
-      <recent name="$PROJECT_DIR$/includes" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -79,31 +66,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2437fb3e-3696-42fe-8166-24f861dc99ca" name="Default Changelist" comment="" />
-      <created>1610109608481</created>
+      <changelist id="82d17df0-da1a-477f-b9b7-79f9fd21973a" name="Default Changelist" comment="" />
+      <created>1610238329615</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610109608481</updated>
-      <workItem from="1610109609821" duration="5555000" />
-      <workItem from="1610122430474" duration="6330000" />
-      <workItem from="1610220744197" duration="455000" />
-      <workItem from="1610226516620" duration="5573000" />
+      <updated>1610238329615</updated>
+      <workItem from="1610238330656" duration="509000" />
     </task>
-    <task id="LOCAL-00001" summary="commit">
-      <created>1610112130654</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1610112130654</updated>
-    </task>
-    <task id="LOCAL-00002" summary="save">
-      <created>1610127795292</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1610127795292</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,29 +88,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
-    <MESSAGE value="save" />
-    <option name="LAST_COMMIT_MESSAGE" value="save" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="524" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610127194495">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="395" y="524" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1610127194495" />
-    <state x="516" y="427" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610111583076">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="516" y="427" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1610111583076" />
-    <state x="103" y="123" width="1342" height="1217" key="DiffContextDialog" timestamp="1610127998064">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="103" y="123" width="1342" height="1217" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1610127998064" />
-    <state x="1660" y="23" width="900" height="1057" key="SettingsEditor" timestamp="1610228713840">
+    <state x="958" y="190" key="SettingsEditor" timestamp="1610238472136">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1660" y="23" width="900" height="1057" key="SettingsEditor/0.23.2560.1057@0.23.2560.1057" timestamp="1610228713840" />
+    <state x="958" y="190" key="SettingsEditor/0.23.2560.1057@0.23.2560.1057" timestamp="1610238472136" />
   </component>
 </project>
