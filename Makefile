@@ -1,4 +1,4 @@
-SRCS    = srcs/cd d
+SRCS    = srcs
 INCS    = includes
 OBJS    = ${SRCS:.c=.o}
 NAME    = libft.a
