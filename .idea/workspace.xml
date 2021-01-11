@@ -28,8 +28,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d17df0-da1a-477f-b9b7-79f9fd21973a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_atoi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_bzero.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_bzero.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_calloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_calloc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isalnum.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_isalnum.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isalpha.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_isalpha.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isascii.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_isascii.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isdigit.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_isdigit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_isprint.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_isprint.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_itoa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memccpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_memccpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_memchr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memcmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_memcmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_memcpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memmove.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_memmove.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memset.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_memset.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_split.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_split.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strchr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strdup.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strdup.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strjoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strjoin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strlcat.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strlcat.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strlcpy.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strlcpy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strlen.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strlen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strncmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strncmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strnstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strnstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strrchr.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strrchr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strtrim.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_strtrim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_substr.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_substr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_tolower.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_tolower.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_toupper.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_toupper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +87,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/srcs" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -75,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610238329615</updated>
       <workItem from="1610238330656" duration="9677000" />
+      <workItem from="1610360530281" duration="3852000" />
     </task>
     <servers />
   </component>
@@ -91,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="958" y="190" key="SettingsEditor" timestamp="1610238472136">
