@@ -25,7 +25,7 @@ int		ft_countdigit(int x)
 	size_t	c;
 
 	c = 0;
-	if (x = 0)
+	if (x == 0)
 		c = 1;
 	while (x != 0)
 	{
@@ -47,15 +47,13 @@ int 	ft_isnegative(int n)
 
 char *ft_itoa(int n)
 {
-	char	*new;
-	int		i;
-	int 	c;
-	int 	sign;
+	char			*new;
+	int				i;
+	int 			c;
+	unsigned int	n2;
 
 	c = ft_countdigit(n);
-	sign = ft_isnegative(n);
-	if (n < 0)
-
+	n > 0 ? (n2 = n) : (n2 = -n);
 	if (!(new = malloc((sizeof(char) * (c + 2)))))
 		return(NULL);
 	i = 0;
@@ -64,7 +62,7 @@ char *ft_itoa(int n)
 		new[i++] = (n2 % 10) + '0';
 		n2 = n2 / 10;
 	}
-	if (sign == -1)
+	if (ft_isnegative(n) == -1)
 		new[i++] = '-';
 	new[i] = '\0';
 	return(ft_revstr(new));

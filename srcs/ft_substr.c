@@ -6,7 +6,7 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 	size_t i;
 
 	i = 0;
-	if (!(new = malloc(sizeof(char *) * len)))
+	if (!(new = malloc(sizeof(char) * (len + 1))))
 		return(NULL);
 	while (s[start] && len > 0)
 	{
@@ -14,6 +14,7 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 		start++;
 		len--;
 	}
+	new[i] = '\0';
 	return(new);
 }
 
