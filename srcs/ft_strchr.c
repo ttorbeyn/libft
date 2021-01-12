@@ -1,4 +1,4 @@
-#include "../includes/libft.h"
+#include "libft.h"
 
 char *ft_strchr(const char *s, int c)
 {
@@ -23,7 +23,7 @@ int main() {
 
 	const char * source = "The C Language";
 	char * destination;
-	char * pointer;
+	char * pointer = "";
 	int length = strlen( source );
 
 	/* We clone the inital string */
@@ -31,7 +31,7 @@ int main() {
 	strcpy( destination, source );
 
 	/* We replace all 'a' characters */
-	while (pointer = ft_strchr( destination, 'a' ) ) {
+	while (pointer == ft_strchr(destination, 'a')) {
 		*pointer = 'A';
 	}
 

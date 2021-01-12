@@ -1,4 +1,4 @@
-#include "../includes/libft.h"
+#include "libft.h"
 
 int ft_isalpha(int c)
 {
@@ -21,7 +21,7 @@ int main() {
 
 	bool isCorrect = true;
 	size_t length = strlen( buffer );
-	for( int i=0; i<length; i++ ) {
+	for( size_t i=0; i<length; i++ ) {
 		if ( ft_isalpha( buffer[i] ) == false && isblank( buffer[i] ) == false ) {
 			isCorrect = false;
 		}

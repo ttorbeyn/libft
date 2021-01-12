@@ -1,4 +1,4 @@
-#include "../includes/libft.h"
+#include "libft.h"
 
 int ft_tolower(int c)
 {
@@ -14,7 +14,7 @@ int ft_tolower(int c)
 
 char * strtolower( char * dest, const char * src ) {
 	char * result = dest;
-	while( *dest++ = ft_tolower( *src++ ) );
+	while (*dest++ == ft_tolower(*src++));
 	return result;
 }
 

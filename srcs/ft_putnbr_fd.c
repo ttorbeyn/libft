@@ -1,4 +1,4 @@
-#include "../includes/libft.h"
+#include "libft.h"
 
 void ft_putnbr_fd(int n, int fd)
 {
@@ -22,5 +22,8 @@ void ft_putnbr_fd(int n, int fd)
 
 int		main(int ac, char **av)
 {
+	if (ac < 0)
+		return (0);
 	ft_putnbr_fd(atoi(av[1]), 1);
+	return (0);
 }

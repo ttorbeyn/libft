@@ -1,4 +1,4 @@
-#include "../includes/libft.h"
+#include "libft.h"
 
 int	ft_toupper(int c)
 {
@@ -14,7 +14,7 @@ int	ft_toupper(int c)
 
 char * strtoupper( char * dest, const char * src ) {
 	char * result = dest;
-	while( *dest++ = ft_toupper( *src++ ) );
+	while( *dest++ == ft_toupper( *src++ ) );
 	return result;
 }
 

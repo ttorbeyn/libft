@@ -1,9 +1,9 @@
-#include "../includes/libft.h"
+#include "libft.h"
 
 int ft_wordcount(char const *s, char c)
 {
 	size_t i;
-	size_t x;
+	int x;
 
 	i = 0;
 	x = 0;
@@ -37,7 +37,7 @@ char **ft_split(char const *s, char c)
 {
 	char 	**new;
 	size_t 	x;
-	size_t 	i;
+	int 	i;
 	size_t 	j;
 
 	if (!(new = malloc((sizeof(char **)) * (ft_wordcount(s, c) + 1))))
@@ -60,11 +60,15 @@ char **ft_split(char const *s, char c)
 	return(new);
 }
 
+#include <stdio.h>
+
 int main (int ac, char **av)
 {
 	char **new;
-	size_t x;
+	int x;
 
+	if (ac < 0)
+		return (0);
 	x = 0;
 	new = malloc(100);
 	new = ft_split(av[1], '-');

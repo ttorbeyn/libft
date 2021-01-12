@@ -1,4 +1,4 @@
-#include "../includes/libft.h"
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
@@ -19,6 +19,8 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 
 int main(int ac, char **av)
 {
+	if (ac < 0)
+		return (0);
 	int a = strncmp(av[1], av[2], 5);
 	int b = ft_strncmp(av[1], av[2], 5);
 
