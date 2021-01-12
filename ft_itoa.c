@@ -12,15 +12,15 @@
 
 #include "includes/libft.h"
 
-char *ft_revstr(const char *s)
+char	*ft_revstr(const char *s)
 {
-	char 	*new;
+	char	*new;
 	size_t	len;
 	size_t	i;
 
 	len = strlen(s);
 	if (!(new = malloc(sizeof(char) * (len + 1))))
-		return(NULL);
+		return (NULL);
 	i = 0;
 	while (len > 0)
 	{
@@ -29,7 +29,7 @@ char *ft_revstr(const char *s)
 		len--;
 	}
 	new[i] = '\0';
-	return(new);
+	return (new);
 }
 
 int		ft_countdigit(int x)
@@ -44,30 +44,33 @@ int		ft_countdigit(int x)
 		x = x / 10;
 		c++;
 	}
-	return(c);
+	return (c);
 }
 
-int 	ft_isnegative(int n)
+int		ft_isnegative(int n)
 {
 	int sign;
 
 	sign = 1;
 	if (n < 0)
 		sign = -1;
-	return(sign);
+	return (sign);
 }
 
-char *ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	char			*new;
 	int				i;
-	int 			c;
+	int				c;
 	unsigned int	n2;
 
 	c = ft_countdigit(n);
-	n > 0 ? (n2 = n) : (n2 = -n);
+	if (n < 0)
+		(n2 = -n);
+	else
+		(n2 = n);
 	if (!(new = malloc((sizeof(char) * (c + 2)))))
-		return(NULL);
+		return (NULL);
 	i = 0;
 	while (i < c)
 	{
@@ -77,5 +80,5 @@ char *ft_itoa(int n)
 	if (ft_isnegative(n) == -1)
 		new[i++] = '-';
 	new[i] = '\0';
-	return(ft_revstr(new));
+	return (ft_revstr(new));
 }

@@ -14,8 +14,8 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	size_t i;
-	int a;
+	size_t	i;
+	int		a;
 
 	i = 0;
 	a = 0;
@@ -26,5 +26,5 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 			return (a);
 		i++;
 	}
-	return(a);
+	return (a);
 }

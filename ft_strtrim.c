@@ -18,5 +18,4 @@ char *ft_strtrim(char const *s1, char const *set);
 
 	if (!(new = malloc((sizeof(char *)) * ft_strlen(s1))))
 		return(NULL);
-
 }*/

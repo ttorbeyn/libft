@@ -36,7 +36,5 @@ int	ft_atoi(const char *str)
 		y += str[i] - '0';
 		i++;
 	}
-	return(y * sign);
+	return (y * sign);
 }
-
-

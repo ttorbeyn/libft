@@ -12,16 +12,16 @@
 
 #include "includes/libft.h"
 
-char *ft_strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
 	size_t len;
 
 	len = ft_strlen(s);
-	while(len > 0)
+	while (len > 0)
 	{
 		if (((unsigned char*)s)[len] == c)
-			return(&((void*)s)[len]);
+			return (&((void*)s)[len]);
 		len--;
 	}
-	return(NULL);
+	return (NULL);
 }
