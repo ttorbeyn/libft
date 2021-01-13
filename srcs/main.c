@@ -393,17 +393,31 @@
 }
 //ft_strmapi.c
 //ft_strncmp.c
-	int main(int ac, char **av)
+int main(int ac, char **av)
 {
 	if (ac < 0)
 		return (0);
-	int a = strncmp(av[1], av[2], 5);
-	int b = ft_strncmp(av[1], av[2], 5);
+	//int a = strncmp(av[1], av[2], 5);
+	//int b = ft_strncmp(av[1], av[2], 5);
+
+	int a = strncmp("abcdef", "abcdefghijklmnop", 6);
+	int b = ft_strncmp("abcdef", "abcdefghijklmnop", 6);
 
 	printf("GOOD	:	%d\n", a);
 	printf("MINE	:	%d\n", b);
 }
 //ft_strnstr.c
+	int main()
+{
+	char *s1 = "MZIRIBMZIRIBMZE123";
+	char *s2 = "MZIRIBMZ";
+	size_t max = strlen(s2);
+	char *i1 = strnstr(s1, s2, max);
+	char *i2 = ft_strnstr(s1, s2, max);
+	printf("%s\n", i1);
+	printf("%s\n", i2);
+	return (0);
+}
 //ft_strrchr.c
 	int main() {
 
