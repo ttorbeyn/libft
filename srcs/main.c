@@ -303,6 +303,20 @@
 	}
 	return(0);
 }
+	int main()
+{
+	char *s = "      split       this for   me  !       ";
+	int x;
+
+	x = 0;
+	char **result = ft_split(s, ' ');
+	while (x < ft_wordcount(s, ' '))
+	{
+		printf("%s\n", result[x]);
+		x++;
+	}
+	return (0);
+}
 //ft_strchr.c
 	int main() {
 
@@ -413,6 +427,16 @@
 }
 //ft_strtrim.c
 //ft_substr.c
+	int main(int ac, char **av)
+{
+	if (ac != 4)
+	{
+		printf("Error fils de pute\n");
+		return (404);
+	}
+	printf("%s\n", ft_substr(av[1], atoi(av[2]), atoi(av[3])));
+	return (0);
+}
 //ft_tolower.c
 	char * strtolower( char * dest, const char * src ) {
 	char * result = dest;
