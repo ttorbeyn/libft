@@ -11,11 +11,26 @@
 /* ************************************************************************** */
 
 #include "includes/libft.h"
+#include <stdio.h>
 
-int	ft_atoi(const char *str)
+static	int	ft_verifyll(unsigned long long int a, int sign)
+{
+	unsigned long long	min;
+	unsigned long long	max;
+
+	min = 9223372036854775808U;
+	max = 9223372036854775807U;
+	if (a > max && sign > 0)
+		return (-1);
+	if (a > min && sign < 0)
+		return (0);
+	return (2);
+}
+
+int			ft_atoi(const char *str)
 {
 	int i;
-	int y;
+	unsigned long long y;
 	int sign;
 
 	sign = 1;
@@ -36,5 +51,7 @@ int	ft_atoi(const char *str)
 		y += str[i] - '0';
 		i++;
 	}
+	if (ft_verifyll(y, sign) != 2)
+		return (ft_verifyll(y, sign));
 	return (y * sign);
 }

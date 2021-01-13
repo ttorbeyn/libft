@@ -12,7 +12,7 @@
 
 #include "includes/libft.h"
 
-char	*ft_revstr(const char *s)
+static char	*ft_revstr(const char *s)
 {
 	char	*new;
 	size_t	len;
@@ -32,7 +32,7 @@ char	*ft_revstr(const char *s)
 	return (new);
 }
 
-int		ft_countdigit(int x)
+static int	ft_countdigit(int x)
 {
 	size_t	c;
 
@@ -47,7 +47,7 @@ int		ft_countdigit(int x)
 	return (c);
 }
 
-int		ft_isnegative(int n)
+static int	ft_isnegative(int n)
 {
 	int sign;
 
@@ -57,7 +57,7 @@ int		ft_isnegative(int n)
 	return (sign);
 }
 
-char	*ft_itoa(int n)
+char		*ft_itoa(int n)
 {
 	char			*new;
 	int				i;

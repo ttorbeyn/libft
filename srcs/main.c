@@ -303,6 +303,20 @@
 	}
 	return(0);
 }
+	int main()
+{
+	char *s = "      split       this for   me  !       ";
+	int x;
+
+	x = 0;
+	char **result = ft_split(s, ' ');
+	while (x < ft_wordcount(s, ' '))
+	{
+		printf("%s\n", result[x]);
+		x++;
+	}
+	return (0);
+}
 //ft_strchr.c
 	int main() {
 
@@ -379,17 +393,31 @@
 }
 //ft_strmapi.c
 //ft_strncmp.c
-	int main(int ac, char **av)
+int main(int ac, char **av)
 {
 	if (ac < 0)
 		return (0);
-	int a = strncmp(av[1], av[2], 5);
-	int b = ft_strncmp(av[1], av[2], 5);
+	//int a = strncmp(av[1], av[2], 5);
+	//int b = ft_strncmp(av[1], av[2], 5);
+
+	int a = strncmp("abcdef", "abcdefghijklmnop", 6);
+	int b = ft_strncmp("abcdef", "abcdefghijklmnop", 6);
 
 	printf("GOOD	:	%d\n", a);
 	printf("MINE	:	%d\n", b);
 }
 //ft_strnstr.c
+	int main()
+{
+	char *s1 = "MZIRIBMZIRIBMZE123";
+	char *s2 = "MZIRIBMZ";
+	size_t max = strlen(s2);
+	char *i1 = strnstr(s1, s2, max);
+	char *i2 = ft_strnstr(s1, s2, max);
+	printf("%s\n", i1);
+	printf("%s\n", i2);
+	return (0);
+}
 //ft_strrchr.c
 	int main() {
 
@@ -413,6 +441,16 @@
 }
 //ft_strtrim.c
 //ft_substr.c
+	int main(int ac, char **av)
+{
+	if (ac != 4)
+	{
+		printf("Error fils de pute\n");
+		return (404);
+	}
+	printf("%s\n", ft_substr(av[1], atoi(av[2]), atoi(av[3])));
+	return (0);
+}
 //ft_tolower.c
 	char * strtolower( char * dest, const char * src ) {
 	char * result = dest;
