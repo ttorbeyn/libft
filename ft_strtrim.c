@@ -11,101 +11,72 @@
 /* ************************************************************************** */
 
 #include "includes/libft.h"
-/*
-static int	ft_checksetstart(char const *s1, char const *set)
+
+static size_t	ft_checkstart(char const *s1, char const *set)
 {
 	size_t	i;
+	size_t	j;
 
 	i = 0;
-	while (s1[i] && s1[i] == set[i])
-		i++;
-	if (i == ft_strlen(set))
-		return (i);
-	else
-		return (0);
-}
-
-static int	ft_checksetend(char const *s1, char const *set)
-{
-	int	lens1;
-	int	lenset;
-
-	lens1 = ft_strlen(s1);
-	lenset = ft_strlen(set);
-	while (lens1 > 0 && s1[lens1] == set[lenset] && lenset > 0)
-	{
-		lenset--;
-		lens1--;
-	}
-	if (lenset == 0)
-		return (ft_strlen(set));
-	else
-		return (0);
-}
-
-char		*ft_strtrim(char const *s1, char const *set)
-{
-	char	*new;
-	int		i;
-	int		j;
-
-	if ((!s1) || (!set))
-		return (NULL);
-	if (!(new = malloc((sizeof(char)) * ft_strlen(s1))))
-		return(NULL);
-	i = ft_checksetstart(s1, set);
 	j = 0;
-	while (s1[i])
+	while (s1[i] && set[j])
 	{
-		new[j] = s1[i];
-		i++;
-		j++;
+		if (s1[i] != set[j])
+			j++;
+		else
+		{
+			i++;
+			j = 0;
+		}
 	}
-	if (ft_checksetend(s1, set))
-		new[(j - ft_checksetend(s1, set))] = '\0';
-	else
-		new[j] = '\0';
-	return (new);
+	return (i);
 }
-*/
 
+static size_t	ft_checkend(char const *s1, char const *set)
+{
+	size_t	i;
+	size_t	len;
 
+	i = 0;
+	len = ft_strlen(s1) - 1;
+	while (len > 0 && set[i])
+	{
+		if (s1[len] != set[i])
+			i++;
+		else
+		{
+			len--;
+			i = 0;
+		}
+	}
+	return (len);
+}
 
-char		*ft_strtrim(char const *s1, char const *set)
+char			*ft_strtrim(char const *s1, char const *set)
 {
 	char	*new;
-	int		i;
-	int		j;
+	size_t	i;
+	size_t	len;
 	int		x;
+	size_t	a;
 
 	if ((!s1) || (!set))
 		return (NULL);
-	if (!(new = malloc((sizeof(char)) * ft_strlen(s1))))
-		return(NULL);
-	i = 0;
-	j = 0;
-	while (s1[i] == set[j])
-		i++;
+	i = ft_checkstart(s1, set);
+	len = ft_checkend(s1, set);
+	if (len > i)
+		a = len - i;
+	else
+		a = len;
+	if (!(new = malloc((sizeof(char)) * (a + 2))))
+		return (NULL);
 	x = 0;
-	while (s1[i])
+	while (s1[i] && i <= len)
 	{
 		new[x] = s1[i];
-		i++;
 		x++;
+		i++;
 	}
-	new[i] = '\0';
+	new[x] = '\0';
 	return (new);
-}
-
-
-#include <stdio.h>
-
-int main(int ac, char **av)
-{
-	if (ac != 3)
-	{
-		printf("Pas assez d'arguments gros con\n");
-		return (0);
-	}
-	printf("%s\n", ft_strtrim(av[1], av[2]));
 }

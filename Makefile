@@ -65,11 +65,11 @@ RM      = rm -f
 .c.o:
 			${CC} ${CFLAGS} -c $< -o ${<:.c=.o} -I${INCS}
 
-all:		${NAME}
-
 ${NAME}:	${OBJS}
 			${LIBC} ${NAME} ${OBJS}
 			${LIBR} ${NAME}
+
+all:		${NAME}
 
 bonus:		${OBJS} ${BONUS}
 			${LIBC} ${NAME} ${OBJS}

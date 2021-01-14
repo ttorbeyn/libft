@@ -45,6 +45,8 @@ static int	ft_wordlen(char const *s, char c, size_t x)
 	return (i);
 }
 
+static void ft_freeall()
+
 char		**ft_split(char const *s, char c)
 {
 	char	**new;
@@ -52,6 +54,8 @@ char		**ft_split(char const *s, char c)
 	int		i;
 	size_t	j;
 
+	if (!s)
+		return (NULL);
 	if (!(new = malloc((sizeof(char **)) * (ft_wordcount(s, c) + 1))))
 		return (NULL);
 	i = 0;

@@ -29,16 +29,14 @@
   <component name="ChangeListManager">
     <list default="true" id="82d17df0-da1a-477f-b9b7-79f9fd21973a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_atoi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_itoa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_memmove.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_memmove.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_putendl_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_putendl_fd.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_putstr_fd.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_putstr_fd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_strdup.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_strdup.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_strjoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_strjoin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_strmapi.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_strmapi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_split.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_split.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_strtrim.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_strtrim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_substr.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_substr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +55,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="ToolWindowDatabase.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,13 +70,6 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/srcs" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,6 +82,8 @@
       <workItem from="1610238330656" duration="9677000" />
       <workItem from="1610360530281" duration="3852000" />
       <workItem from="1610618570678" duration="7717000" />
+      <workItem from="1610631408852" duration="10722000" />
+      <workItem from="1610644319830" duration="1495000" />
     </task>
     <servers />
   </component>
@@ -108,9 +103,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="958" y="190" key="SettingsEditor" timestamp="1610238472136">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state x="162" y="386" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610640777957">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="162" y="386" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1610640777957" />
+    <state x="958" y="247" key="SettingsEditor" timestamp="1610644289207">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="958" y="190" key="SettingsEditor/0.23.2560.1057@0.23.2560.1057" timestamp="1610238472136" />
+    <state x="958" y="247" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1610644289207" />
+    <state width="314" height="242" key="ShowFilterAction_Filter_Popup" timestamp="1610640667058">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.23.2560.1417@0.23.2560.1417" timestamp="1610640667058" />
+    <state x="283" y="341" width="838" height="1032" key="search.everywhere.popup" timestamp="1610640667055">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="283" y="341" width="838" height="1032" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1610640667055" />
   </component>
 </project>

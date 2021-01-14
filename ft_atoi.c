@@ -11,18 +11,15 @@
 /* ************************************************************************** */
 
 #include "includes/libft.h"
-#include <stdio.h>
 
-static	int	ft_verifyll(unsigned long long int a, int sign)
+static	int	ft_verifyll(unsigned long long a, int sign)
 {
-	unsigned long long	min;
 	unsigned long long	max;
 
-	min = 9223372036854775808U;
 	max = 9223372036854775807U;
 	if (a > max && sign > 0)
 		return (-1);
-	if (a > min && sign < 0)
+	if (a > (max + 1) && sign < 0)
 		return (0);
 	return (2);
 }
