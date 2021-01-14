@@ -18,7 +18,7 @@ static char	*ft_revstr(const char *s)
 	size_t	len;
 	size_t	i;
 
-	len = strlen(s);
+	len = ft_strlen(s);
 	if (!(new = malloc(sizeof(char) * (len + 1))))
 		return (NULL);
 	i = 0;

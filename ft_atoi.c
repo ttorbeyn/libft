@@ -29,9 +29,9 @@ static	int	ft_verifyll(unsigned long long int a, int sign)
 
 int			ft_atoi(const char *str)
 {
-	int i;
-	unsigned long long y;
-	int sign;
+	int					i;
+	unsigned long long	y;
+	int					sign;
 
 	sign = 1;
 	i = 0;
