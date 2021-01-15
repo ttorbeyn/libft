@@ -45,14 +45,26 @@ static int	ft_wordlen(char const *s, char c, size_t x)
 	return (i);
 }
 
-static void ft_freeall()
+static char	**ft_freeall(char **new, int i)
+{
+	int	j;
+
+	j = 0;
+	while (j < i && new[j] != '\0')
+	{
+		free(new[j]);
+		j++;
+	}
+	free(new);
+	return (NULL);
+}
 
 char		**ft_split(char const *s, char c)
 {
 	char	**new;
-	size_t	x;
 	int		i;
 	size_t	j;
+	size_t	x;
 
 	if (!s)
 		return (NULL);
@@ -64,7 +76,7 @@ char		**ft_split(char const *s, char c)
 	{
 		j = 0;
 		if (!(new[i] = malloc((sizeof(char *) * (ft_wordlen(s, c, x) + 1)))))
-			return (NULL);
+			return (ft_freeall(new, i));
 		while (s[x] && s[x] == c)
 			x++;
 		while (s[x] && s[x] != c)
