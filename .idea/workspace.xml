@@ -29,13 +29,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82d17df0-da1a-477f-b9b7-79f9fd21973a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_lstclear.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstclear.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_lstdelone.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstdelone.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_lstiter.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstiter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_lstmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstmap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_lstnew.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstnew.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_lstsize.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstsize.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strtrim.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_strtrim.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
       <workItem from="1610631408852" duration="10722000" />
       <workItem from="1610644319830" duration="1533000" />
       <workItem from="1610707036786" duration="4910000" />
-      <workItem from="1610716990713" duration="5146000" />
+      <workItem from="1610716990713" duration="7508000" />
     </task>
     <servers />
   </component>
