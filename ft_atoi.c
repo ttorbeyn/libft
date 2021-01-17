@@ -21,7 +21,7 @@ static	int	ft_verifyll(unsigned long long a, int sign)
 		return (-1);
 	if (a > (max + 1) && sign < 0)
 		return (0);
-	return (2);
+	return (1);
 }
 
 int			ft_atoi(const char *str)
@@ -48,7 +48,7 @@ int			ft_atoi(const char *str)
 		y += str[i] - '0';
 		i++;
 	}
-	if (ft_verifyll(y, sign) != 2)
+	if (ft_verifyll(y, sign) != 1)
 		return (ft_verifyll(y, sign));
 	return (y * sign);
 }
