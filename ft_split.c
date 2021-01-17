@@ -50,7 +50,7 @@ static char	**ft_freeall(char **new, int i)
 	int	j;
 
 	j = 0;
-	while (j < i && new[j] != '\0')
+	while (j < i && new[j])
 	{
 		free(new[j]);
 		j++;
