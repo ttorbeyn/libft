@@ -1,6 +1,6 @@
-NAME		= libft.a
+NAME		=	libft.a
 
-SRCS    	= 	ft_atoi.c \
+SRC 		= 	ft_atoi.c \
 				ft_bzero.c \
 				ft_calloc.c \
 				ft_isalnum.c \
@@ -9,15 +9,6 @@ SRCS    	= 	ft_atoi.c \
 				ft_isdigit.c \
 				ft_isprint.c \
 				ft_itoa.c \
-				ft_lstadd_back.c \
-				ft_lstadd_front.c \
-				ft_lstclear.c \
-				ft_lstdelone.c \
-				ft_lstiter.c \
-				ft_lstlast.c \
-				ft_lstmap.c \
-				ft_lstnew.c \
-				ft_lstsize.c \
 				ft_memccpy.c \
 				ft_memchr.c \
 				ft_memcmp.c \
@@ -44,7 +35,7 @@ SRCS    	= 	ft_atoi.c \
 				ft_tolower.c \
 				ft_toupper.c
 
-BONUS		=	ft_lstadd_back.c \
+SRC_BONUS	= 	ft_lstadd_back.c \
 				ft_lstadd_front.c \
 				ft_lstclear.c \
 				ft_lstdelone.c \
@@ -54,35 +45,31 @@ BONUS		=	ft_lstadd_back.c \
 				ft_lstnew.c \
 				ft_lstsize.c
 
-CC			= gcc
-CFLAGS		= -Wall -Werror -Wextra
-OBJS		= $(SRCS:.c=.o)
-OBJS_BONUS	= $(BONUS:.c=.o)
-RM			= rm -f
-LIBC		= ar rc
-LIBR		= ranlib
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
+OBJ = $(SRC:.c=.o)
+BONUS = $(SRC_BONUS:.c=.o)
 
 
+%.o: %.c
+	$(CC) $(CFLAGS) -I . -c $^ -o $@
 
-.c.o:
-			$(CC) $(CFLAGS) -c $< -o $(<:.c=.o) -I
+all: $(NAME)
 
-all:		$(NAME)
-
-$(NAME):	$(OBJS)
-			$(LIBC) $(NAME) $(OBJS)
-			$(LIBR) $(NAME)
+$(NAME): $(OBJ)
+	ar -rcs $(NAME) $(OBJ)
 
 clean:
-			$(RM) $(OBJS) $(OBJS_BONUS)
+	rm -f $(OBJ) $(BONUS)
 
-fclean:		clean
-			$(RM) $(NAME)
+fclean: clean
+	rm -f $(NAME)
+	rm -f bonus
 
-re:			fclean all
+re: fclean all
 
-bonus:		$(OBJS) $(OBJS_BONUS)
-			$(LIBC) $(NAME) $(OBJS) $(OBJS_BONUS)
-			$(LIBR) $(NAME)
+bonus: $(OBJ) $(BONUS)
+	ar -rcs $(NAME) $(OBJ) $(BONUS)
+	touch bonus
 
-.PHONY: all, clean, fclean, re, bonus
+.PHONY: all, clean, fclean, re

@@ -33,14 +33,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	new[i] = '\0';
 	return (new);
 }
-/*
-int main(int ac, char **av)
-{
-	if (ac != 4)
-	{
-		printf("Error fils de pute\n");
-		return (404);
-	}
-	printf("%s\n", ft_substr(av[1], atoi(av[2]), atoi(av[3])));
-	return (0);
-}*/
