@@ -6,7 +6,7 @@
 /*   By: ttorbeyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 18:43:17 by ttorbeyn          #+#    #+#             */
-/*   Updated: 2021/01/12 18:43:22 by ttorbeyn         ###   ########.fr       */
+/*   Updated: 2021/01/18 11:10:54 by ttorbeyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ char		*ft_itoa(int n)
 		(n2 = -n);
 	else
 		(n2 = n);
-	if (!(new = malloc((sizeof(char) * (c + 2)))))
+	if (!(new = malloc((sizeof(char) * (c)))))
 		return (NULL);
 	i = 0;
 	while (i < c)
