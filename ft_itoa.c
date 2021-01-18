@@ -12,11 +12,11 @@
 
 #include "libft.h"
 
-static char     *ft_revstr(char *str)
+static char	*ft_revstr(char *str)
 {
-	char    swp;
-	int     i;
-	int     len;
+	char	swp;
+	int		i;
+	int		len;
 
 	i = 0;
 	len = ft_strlen(str) - 1;
