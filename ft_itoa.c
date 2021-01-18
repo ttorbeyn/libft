@@ -10,26 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
-static char	*ft_revstr(const char *s)
+static char     *ft_revstr(char *str)
 {
-	char	*new;
-	size_t	len;
-	size_t	i;
+	char    swp;
+	int     i;
+	int     len;
 
-	len = ft_strlen(s);
-	if (!(new = malloc(sizeof(char) * (len + 1))))
-		return (NULL);
 	i = 0;
-	while (len > 0)
+	len = ft_strlen(str) - 1;
+	while (i < len)
 	{
-		new[i] = s[len - 1];
+		swp = str[i];
+		str[i] = str[len];
+		str[len] = swp;
 		i++;
 		len--;
 	}
-	new[i] = '\0';
-	return (new);
+	return (str);
 }
 
 static int	ft_countdigit(int x)
@@ -38,7 +37,7 @@ static int	ft_countdigit(int x)
 
 	c = 0;
 	if (x == 0)
-		c = 1;
+		return (1);
 	while (x != 0)
 	{
 		x = x / 10;
@@ -69,7 +68,7 @@ char		*ft_itoa(int n)
 		(n2 = -n);
 	else
 		(n2 = n);
-	if (!(new = malloc((sizeof(char) * (c)))))
+	if (!(new = malloc((sizeof(char) * (c + (n < 0 ? 2 : 1))))))
 		return (NULL);
 	i = 0;
 	while (i < c)
