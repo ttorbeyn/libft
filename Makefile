@@ -65,7 +65,7 @@ LIBR		= ranlib
 
 
 .c.o:
-			$(CC) $(CFLAGS) -c $< -o $(<:.c=.o) -I
+			$(CC) $(CFLAGS) -c $< -o $(<:.c=.o)
 
 all:		$(NAME)
 
