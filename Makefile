@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ttorbeyn <ttorbeyn@student.s19.be>         +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2021/01/19 11:56:18 by ttorbeyn          #+#    #+#              #
+#    Updated: 2021/02/26 14:32:37 by ttorbeyn         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME		= libft.a
 
 SRCS    	= 	ft_atoi.c \
@@ -60,9 +72,6 @@ OBJS		= $(SRCS:.c=.o)
 OBJS_BONUS	= $(BONUS:.c=.o)
 RM			= rm -f
 LIBC		= ar rc
-LIBR		= ranlib
-
-
 
 .c.o:
 			$(CC) $(CFLAGS) -c $< -o $(<:.c=.o)
@@ -71,7 +80,9 @@ all:		$(NAME)
 
 $(NAME):	$(OBJS)
 			$(LIBC) $(NAME) $(OBJS)
-			$(LIBR) $(NAME)
+
+bonus:		$(OBJS) $(OBJS_BONUS)
+			$(LIBC) $(NAME) $(OBJS) $(OBJS_BONUS)
 
 clean:
 			$(RM) $(OBJS) $(OBJS_BONUS)
@@ -80,9 +91,5 @@ fclean:		clean
 			$(RM) $(NAME)
 
 re:			fclean all
-
-bonus:		$(OBJS) $(OBJS_BONUS)
-			$(LIBC) $(NAME) $(OBJS) $(OBJS_BONUS)
-			$(LIBR) $(NAME)
 
 .PHONY: all, clean, fclean, re, bonus

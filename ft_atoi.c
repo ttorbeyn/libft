@@ -6,7 +6,7 @@
 /*   By: ttorbeyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 17:54:27 by ttorbeyn          #+#    #+#             */
-/*   Updated: 2021/01/13 00:16:46 by hubert           ###   ########.fr       */
+/*   Updated: 2021/01/22 14:09:33 by ttorbeyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static	int	ft_verifyll(unsigned long long a, int sign, int c)
 static	int	ft_isspace(const char *str)
 {
 	int	i;
-	
+
 	i = 0;
 	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\v'
 			|| str[i] == '\f' || str[i] == '\r')
@@ -40,7 +40,7 @@ int			ft_atoi(const char *str)
 	int					i;
 	unsigned long long	y;
 	int					sign;
-	int 			c;
+	int					c;
 
 	sign = 1;
 	i = ft_isspace(str);
@@ -63,13 +63,3 @@ int			ft_atoi(const char *str)
 		return (ft_verifyll(y, sign, c));
 	return (y * sign);
 }
-
-#include <stdio.h>
-
-int main(int ac, char **av)
-{
-	printf("%d\n", ft_atoi(av[1]));
-	printf("%d\n", atoi(av[1]));
-	return (0);	
-}
-
